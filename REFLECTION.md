@@ -17,9 +17,7 @@ Answer the following questions about your learning experience. Each answer shoul
 ## Question 2: What was the most challenging part of this assignment?
 
 **Your Answer:**
-
-[Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
-
+The most difficult part was understanding the code at the beginning , it was not clear how threads and the queue work together it was also confusing how processes run and return to the queue , adding the waiting time feature was challenging , and using github and VS Code for the first time also made things harder but not that much , it took time to understand everything , I wish I had started earlier.
 ---
 
 ## Question 3: How did you overcome the challenges you faced?
