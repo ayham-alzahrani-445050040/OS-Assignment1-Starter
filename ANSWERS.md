@@ -40,18 +40,15 @@ Example from my output:
 
 **Your Answer:**
 
-[Write your answer here. For each state, explain when P1 enters that state during the simulation. Use your understanding of the code to trace through the lifecycle.]
+1. **New**: P1 is new when it is created with new thread(process).
 
-1. **New**: [When is P1 in New state?]
+2. **Runnable**: P1 becomes runnable when currentThread.start(); is called.
 
-2. **Runnable**: [When does P1 become Runnable?]
+3. **Running**: P1 is running is the run() method is executing.
 
-3. **Running**: [When is P1 Running?]
+4. **Waiting**: P1 is waiting when Thread.sleep(stepTime); is used and the main thread waits using currentThread.join();.
 
-4. **Waiting**: [When/why would P1 be Waiting?]
-
-5. **Terminated**: [When is P1 Terminated?]
-
+5. **Terminated**: P1 is terminated when remainingTime <= 0 and the process finishes.
 ---
 
 ## Question 4: Real-World Applications
