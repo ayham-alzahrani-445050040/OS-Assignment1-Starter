@@ -127,19 +127,6 @@ about 2 hours
 
 ---
 
-### Entry 6 - [Optional - Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
-
----
-
 ## Summary
 
 **Total time spent on assignment**: [9 hours]
