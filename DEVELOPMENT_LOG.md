@@ -73,16 +73,20 @@ this made it easier for me to understand the code.
 About 2-3 hours
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+### Entry 3 - [on apr 1 - 4 pm]
+**What I did**:
+I added the priority feature to the process.
 
 **Details**: 
+I added a new variable called priority inside the process class then I updated the constructor to receive the priority after that I generated a random priority between 1 and 5 in the main method then printed the priority when the process is added to the ready queue.
 
 **Challenges**: 
+at first I was confused about how to pass the priority value to the Process class and how to use it correctly.
 
 **Solution**: 
-
-**Time spent**: 
+I read the code carefully and checked how other variables are used I also asked AI to give me hints for help and tried step by step until it worked 
+**Time spent**:
+2 hours
 
 ---
 
