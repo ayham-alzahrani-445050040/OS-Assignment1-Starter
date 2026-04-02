@@ -74,10 +74,11 @@ each task gets a short time to run this keeps the game smooth and the sound clea
 ## Summary
 
 **Key concepts I understood through these questions:**
-1. 
-2. 
-3. 
+1. difference between process and thread  
+2. how round-robin works  
+3. thread states  
+
 
 **Concepts I need to study more:**
-1. 
-2. 
+1. Multithreading
+2. Synchronization
