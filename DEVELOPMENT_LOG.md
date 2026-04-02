@@ -90,16 +90,22 @@ I read the code carefully and checked how other variables are used I also asked 
 
 ---
 
-### Entry 4 - [Date and Time]
+### Entry 4 - [on apr 1 - 8pm]
 **What I did**: 
+after the break I added a counter to count context switches.
 
 **Details**: 
+I created a static variable called context_switche. This variable starts from 0 then I increased it every time a process starts running using start() and added the increment before starting the thread , at the end of the program I printed the total number of context switches.
 
 **Challenges**: 
+ I didn’t understand what context switch means. I was also confused about where to put the counter.
 
 **Solution**: 
+I read the assignment again and also checked the slides this helped me understand what context switch means. 
+I also used AI for small hints and then I knew where to add the counter.
 
 **Time spent**: 
+around 2 hours
 
 ---
 
