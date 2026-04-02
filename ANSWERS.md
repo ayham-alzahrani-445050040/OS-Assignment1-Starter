@@ -10,8 +10,7 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 **Question**: Explain the difference between a **thread** and a **process**. Why did we use threads in this assignment instead of creating separate processes?
 
 **Your Answer:**
-
-[Write your answer here. Consider: What is a process? What is a thread? How do they differ in terms of memory, resources, creation overhead? Why are threads more suitable for this simulation?]
+a process is a running program with its own memory and thread is a smaller part inside the process and shares memory , processes are slower and use more resources , threads are faster and easier to use , that is why threads were used in this assignment.
 
 ---
 
@@ -20,17 +19,19 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 **Question**: In Round-Robin scheduling, what happens when a process doesn't finish within its time quantum? Explain using an example from your program output.
 
 **Your Answer:**
-
-[Write your answer here. Describe the specific behavior - where does the process go? When does it run again? Give an example from your actual program output showing a process that was re-queued.]
+if a process does not finish in its time quantum , it stops and goes back to the queue and then it waits for its next turn this helps all processes to get there chance.
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+▶ P2 executing quantum [2000ms]  
+⏸ P2 completed quantum 2000ms  
+↻ P2 yields CPU for context switch   
+
+
 ```
 
 **Explanation of example:**
-[Explain what's happening in the output snippet you pasted]
-
+ P2 did not finish so it stopped after the time quantum then it was added again to the ready queue using addProcessToQueue()  it will run again when its turn comes.
 ---
 
 ## Question 3: Thread States
