@@ -52,16 +52,25 @@ About 2 hours
 
 ---
 
-### Entry 2 - [Date and Time]
+### Entry 2 - [on Mar 30 - 8pm]
 **What I did**: 
+In this step I tried to understand the given code and what it does and the main objective.
 
 **Details**: 
+The program is about CPU scheduling using round robin , each process runs for a small time then stops and lets another process run.
+The program takes one process runs it for a time quantum then puts it back if it is not finished and join makes sure one process runs at a time.
 
 **Challenges**:
+At first, the code ws hard to understand I was confused about threads and how the processes run.
+I also didnt understand how the queue works at the beginning.
 
 **Solution**: 
+I read the assignment and its details carefully then I divided the code into smaller parts and started reading it step by step.
+I also used AI to help me understand some parts that were confusing especially the threading part.
+this made it easier for me to understand the code.
 
 **Time spent**: 
+About 2-3 hours
 ---
 
 ### Entry 3 - [Date and Time]
